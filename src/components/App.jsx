@@ -6,7 +6,7 @@ import { refreshUser } from 'redux/auth/operations';
 import { useAuth } from 'hook';
 import { PrivateRoute } from './PrivatRoute';
 import { RestrictedRoute } from './RestrictedRoute';
-import { persistStore } from 'redux-persist';
+
 
 
 const Home = lazy(() => import('../Page/Home'));
